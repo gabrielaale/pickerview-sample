@@ -62,22 +62,11 @@
     
 }
 
--(IBAction)showPicker:(id)sender
-{
-    [UIView animateWithDuration:0.3 animations:^{
-        _pickerView.frame = CGRectMake(_pickerView.frame.origin.x,
-                                       107, //Displays the view a little past the
-                                       //center ling of the screen
-                                       _pickerView.frame.size.width,_pickerView.frame.size.height);
-        
-    }];
-    
-    
-}
+
 
 
 - (IBAction)cambiarPantalla:(id)sender {
-    SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:[NSBundle mainBundle]];
+    SecondViewController *viewController = [[SecondViewController alloc] init];
     [self.navigationController pushViewController:viewController animated:NO];
 }
 @end
