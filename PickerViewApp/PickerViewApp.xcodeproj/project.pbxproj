@@ -18,6 +18,8 @@
 		0EBE6C23177BEBD600E7EDC0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE6C22177BEBD600E7EDC0 /* Default-568h@2x.png */; };
 		0EBE6C26177BEBD600E7EDC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE6C25177BEBD600E7EDC0 /* ViewController.m */; };
 		0EBE6C29177BEBD600E7EDC0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE6C27177BEBD600E7EDC0 /* ViewController.xib */; };
+		0EBE6C3C177C073200E7EDC0 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EBE6C3B177C073200E7EDC0 /* SecondView.xib */; };
+		0EBE6C3F177C079D00E7EDC0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE6C3E177C079D00E7EDC0 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		0EBE6C24177BEBD600E7EDC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0EBE6C25177BEBD600E7EDC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0EBE6C28177BEBD600E7EDC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0EBE6C3B177C073200E7EDC0 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SecondView.xib; path = PickerViewApp/SecondView.xib; sourceTree = "<group>"; };
+		0EBE6C3D177C079D00E7EDC0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0EBE6C3E177C079D00E7EDC0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,9 @@
 		0EBE6BFD177BEBD600E7EDC0 = {
 			isa = PBXGroup;
 			children = (
+				0EBE6C3D177C079D00E7EDC0 /* SecondViewController.h */,
+				0EBE6C3E177C079D00E7EDC0 /* SecondViewController.m */,
+				0EBE6C3B177C073200E7EDC0 /* SecondView.xib */,
 				0EBE6C12177BEBD600E7EDC0 /* PickerViewApp */,
 				0EBE6C0B177BEBD600E7EDC0 /* Frameworks */,
 				0EBE6C09177BEBD600E7EDC0 /* Products */,
@@ -163,6 +171,7 @@
 				0EBE6C21177BEBD600E7EDC0 /* Default@2x.png in Resources */,
 				0EBE6C23177BEBD600E7EDC0 /* Default-568h@2x.png in Resources */,
 				0EBE6C29177BEBD600E7EDC0 /* ViewController.xib in Resources */,
+				0EBE6C3C177C073200E7EDC0 /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				0EBE6C19177BEBD600E7EDC0 /* main.m in Sources */,
 				0EBE6C1D177BEBD600E7EDC0 /* AppDelegate.m in Sources */,
 				0EBE6C26177BEBD600E7EDC0 /* ViewController.m in Sources */,
+				0EBE6C3F177C079D00E7EDC0 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

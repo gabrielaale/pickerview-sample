@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
     rows = [NSArray arrayWithObjects:@"Fila 1 " ,@"Fila 2", @"Fila 3", @"Fila 4", @"Fila 5",nil];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -57,6 +59,7 @@
                               self.toolbar.frame.size.height);
         
     }];
+    
 }
 
 -(IBAction)showPicker:(id)sender
@@ -68,7 +71,13 @@
                                        _pickerView.frame.size.width,_pickerView.frame.size.height);
         
     }];
+    
+    
 }
 
 
+- (IBAction)cambiarPantalla:(id)sender {
+    SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:[NSBundle mainBundle]];
+    [self.navigationController pushViewController:viewController animated:NO];
+}
 @end

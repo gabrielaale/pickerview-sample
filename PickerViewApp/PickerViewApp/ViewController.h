@@ -15,5 +15,6 @@
 - (IBAction)actionSelect:(id)sender;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
+- (IBAction)cambiarPantalla:(id)sender;
 
 @end
